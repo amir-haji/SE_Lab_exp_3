@@ -1,6 +1,7 @@
 package main.classes;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Library {
     private ArrayList<Book> books;
@@ -75,8 +76,25 @@ public class Library {
      * @return             The list of students that match the search criteria. Returns null if search type is title or author.
      */
     public ArrayList<Student> searchStudents(SearchByType searchByType, ArrayList<Object> keys) {
-        // TODO complete function
-        return null;
+        if (searchByType.equals(SearchByType.TITLE) || searchByType.equals(SearchByType.AUTHOR)) {
+            return null;
+        } else {
+            ArrayList<Student> found = new ArrayList<Student>();
+
+            for(Student student: students) {
+                if (searchByType.equals(SearchByType.ID)) {
+                    if (keys.contains(student.getId())) {
+                        found.add(student);
+                    }
+                } else if (searchByType.equals(SearchByType.NAME)) {
+                    if (keys.contains(student.getName())) {
+                        found.add(student);
+                    }
+                }
+            }
+
+            return found;
+        }
     }
 
     /**
@@ -85,11 +103,33 @@ public class Library {
      *
      * @param searchByType Specifies the field used for searching (id, title, or author).
      * @param keys         The list of keys to search for.
-     * @return             The list of books that match the search criteria. Returns null if search type is name.
+     * @return             The list of books that match the search criteria. Returns  null if search type is name.
      */
     public ArrayList<Book> searchBooks(SearchByType searchByType, ArrayList<Object> keys) {
-        // TODO complete function
-        return null;
+        if (searchByType.equals(SearchByType.NAME)) {
+            return null;
+        } else {
+            ArrayList<Book> found = new ArrayList<Book>();
+
+            for(Book book: books) {
+
+                if (searchByType.equals(SearchByType.ID)) {
+                    if (keys.contains(book.getId())) {
+                        found.add(book);
+                    }
+                } else if (searchByType.equals(SearchByType.AUTHOR)) {
+                    if (keys.contains(book.getAuthor())) {
+                        found.add(book);
+                    }
+                } else if(searchByType.equals(SearchByType.TITLE)) {
+                    if (keys.contains(book.getTitle())) {
+                        found.add(book);
+                    }
+                }
+            }
+
+            return found;
+        }
     }
 
     /**
