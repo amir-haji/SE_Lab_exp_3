@@ -42,7 +42,7 @@
 
 نتیجه تست‌ها قبل از پیاده‌سازی ویژگی:
 
-![]()
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/16.PNG)
 
 پیاده‌سازی ویژگی:
 
