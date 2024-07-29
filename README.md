@@ -180,4 +180,8 @@ TDD
 
 ![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-21.png)
 
+در نهایت میزان پوشش تست در کلاس ها را قبل و بعد از تغیرات اعمال شده میبینیم:
 
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-50.png)
+
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-60.png)
