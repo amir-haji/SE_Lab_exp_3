@@ -124,21 +124,21 @@ TDD
  سوال ۳) روالی ‬‫را که‬ ‫برای‬ ‫پروژه‬ ‫‪json-simle‬‬ ‫ارائه‬ ‫شد‬،‬ ‫برای‬ پروژه ای که بر روی آن مشغول هستید هم‬ ‫انجام‬ ‫دهید. برای ‫به‬ ‫دست‬‫‌آوردن‬ ‫اعداد‬ ‫پوشش‬ ‫آزمون‬ ‫کافی‬ ‫است‬ ‫بر‬ ‫روی‬ ‫پکیج‬ ‫‪java‬‬ ‫در‬ ‫مسیر‬ ‫‪test‬‬ ‫کلیک‬ ‫راست‬ ‫کرده‬ ‫و‬ ‫گزینه ‬‫‪coverage‬‬ ‫‪with‬‬ ‫‪Tests‬‬ ‫‪All‬‬ ‫‪Run‬‬ ‫را‬ ‫انتخاب‬ ‫کنید‬ ‫(نیازی‬ ‫به‬ ‫اجرای‬ ‫عادی‬ ‫پروژه‬ ‫نیست)‪.‬‬‫
  
 
-![](image-7.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-7.png)
 
 و در اینجا میزان پوشش کلاس ها و توابع را مشاهده میکنیم:
 
-![](image-6.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-6.png)
 
-![](image-10.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-10.png)
 
-![](image-8.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-8.png)
 
 در اینجا هم گزارش پوشش تست را در قالب فایل html ذخیره میکنیم
 
-![](image-9.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-9.png)
 
-![](image-11.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-11.png)
 
 
 سوال ۴) 
@@ -147,36 +147,37 @@ TDD
 
 در book:
 
-![](image-12.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-12.png)
 
 در library:
 
-![](image-13.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-13.png)
 
 و در student: 
 
-![](image-14.png)
+
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-14.png)
 
 پس متود های پوشش داده نشده در کد مربوط به Display ها و toString ها میباشد.
 
 به منظور افزایش پوشش تست، آزمون زیر را برای کلاس های book و library طراحی میکنیم:
 
-![](image-22.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-22.png)
 
 که در نتیجه آن پوشش آزمون در toString کلاس book و Display کلاس library کامل میشود:
 
-![](image-16.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-16.png)
 
-![](image-17.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-17.png)
 
 حال تست مشابهی برای student و library ایجاد میکنیم:
 
-![](image-23.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-23.png)
 
 که در نتیجه آن میزان پوشش تست student و library مجددا افزایش میابد:
 
-![](image-20.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-20.png)
 
-![](image-21.png)
+![](https://github.com/amir-haji/SE_Lab_exp_3/blob/main/report%20screenshots/part%202%20screenshots/image-21.png)
 
 
