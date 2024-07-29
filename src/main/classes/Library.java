@@ -143,7 +143,7 @@ public class Library {
     public void displayBooks() {
         System.out.println("Available books in library:");
         for (Book book : books) {
-            System.out.println(book);
+            System.out.println(book.toString());
         }
     }
 

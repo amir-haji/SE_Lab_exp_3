@@ -168,5 +168,28 @@ public class LibraryTest {
         Assert.assertEquals(0, result.size());
     }
 
+    @Test
+    public void searchBooksThatAlreadyLent() {
+        Student student = new Student("Ali", 14);
+        Book book = new Book("Book-5", "Author-5", 14);
+
+        library.addStudent(student);
+        library.addBook(book);
+        library.lendBook(book, student);
+
+        var result = library.lendBook(book, student);
+
+        Assert.assertEquals(false, result);
+    }
+
+    @Test
+    public void toStringBooks() {
+
+        Book book = new Book("Book-6", "Author-6", 20);
+
+        var result = book.toString();
+
+        Assert.assertEquals("Book-6 by Author-6", result);
+    }
 
 }
