@@ -140,20 +140,26 @@ public class Library {
     /**
      * Displays the books of library.
      */
-    public void displayBooks() {
+    public String displayBooks() {
         System.out.println("Available books in library:");
+        String output = "";
         for (Book book : books) {
             System.out.println(book.toString());
+            output = output.concat(book.toString());
         }
+        return output;
     }
 
     /**
      * Displays the students registered in the library.
      */
-    public void displayStudents() {
+    public String displayStudents() {
         System.out.println("Registered students:");
+        String output = "";
         for (Student student : students) {
-            System.out.println(student);
+            System.out.println(student.toString());
+            output = output.concat(student.toString());
         }
+        return output;
     }
 }

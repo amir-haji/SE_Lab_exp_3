@@ -169,7 +169,7 @@ public class LibraryTest {
     }
 
     @Test
-    public void searchBooksThatAlreadyLent() {
+    public void lendBooksThatNotRegistered() {
         Student student = new Student("Ali", 14);
         Book book = new Book("Book-5", "Author-5", 14);
 
@@ -184,12 +184,18 @@ public class LibraryTest {
 
     @Test
     public void toStringBooks() {
+        String output = "Book-1 by Author-1\nBook-2 by Author-2\nBook-3 by Author-3\nBook-4 by Author-1\n";
+        var result = library.displayBooks();
 
-        Book book = new Book("Book-6", "Author-6", 20);
+        Assert.assertEquals(output, result);
+    }
 
-        var result = book.toString();
+    @Test
+    public void toStringStudent() {
+        String output = "Alice|10\nBob|11\nJohn|12\n";
+        var result = library.displayStudents();
 
-        Assert.assertEquals("Book-6 by Author-6", result);
+        Assert.assertEquals(output, result);
     }
 
 }

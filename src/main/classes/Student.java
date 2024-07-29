@@ -43,6 +43,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return name + "|" + id;
+        return name + "|" + id + "\n";
     }
 }
